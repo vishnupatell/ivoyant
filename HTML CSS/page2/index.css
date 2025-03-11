@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(235, 222, 222);
+    /* box-shadow: 10px 10px 30px 1px rgb(0, 0, 0.1); */
+
+}
+
+nav>div{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+
+.hero-section{
+    margin-top: 30px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-div{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    /* background-color: red; */
+    gap: 1rem;
+
+}
+
+.image-div-inside{
+    /* background-color: green; */
+    height: 300px;  
+}
+
+.image-div-inside>img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid-image-class{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+
+}
+.mid-image-class-div{
+    padding: 20px;
+    width: 100%;
+}
+
+.span-class-2{
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+
+.span-class-1{
+    width: 100px;
+    height: 00px;
+}
+
+.mid-image-class-div-h5{
+    margin-top: 180px;
+    font-size: medium;
+}
+
+.div-main-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-div-class{
+    display: grid;
+    padding: 20px;
+}
+
+.grid-div-class-sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2;
+    margin-bottom: 10px;
+}
+
+.end-div{
+   background-color:#EAE6DB ; 
+   margin-top: 30px; 
+}
+
+.end-div-class1{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.end-div-class1-b{
+    width: 400px;
+    margin-left: 20px;
+    padding-right: 60px;
+}
+.final-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.final-cards-inside{
+    padding: 10px;
+    background-color: white;
+    border:1px solid black
+
+}
+
+.final-cards-inside>img{
+    width: 100%;
+}
+
+@media (max-width:370px){
+    .final-cards{
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+}
